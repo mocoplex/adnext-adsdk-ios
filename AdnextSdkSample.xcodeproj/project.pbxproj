@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B07679B622DD6A5600D7B518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B07679B522DD6A5600D7B518 /* AppDelegate.m */; };
+		B07679BC22DD6A5600D7B518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07679BA22DD6A5600D7B518 /* Main.storyboard */; };
+		B07679BE22DD6A5800D7B518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07679BD22DD6A5800D7B518 /* Assets.xcassets */; };
+		B07679C122DD6A5800D7B518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07679BF22DD6A5800D7B518 /* LaunchScreen.storyboard */; };
+		B07679C422DD6A5800D7B518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B07679C322DD6A5800D7B518 /* main.m */; };
+		B07679CD22DD6A6D00D7B518 /* Adnext.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B07679CB22DD6A6D00D7B518 /* Adnext.bundle */; };
+		B07679DB22DD6B7700D7B518 /* CS004.m in Sources */ = {isa = PBXBuildFile; fileRef = B07679CF22DD6B7600D7B518 /* CS004.m */; };
+		B07679DC22DD6B7700D7B518 /* SampleDynamicBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07679D022DD6B7600D7B518 /* SampleDynamicBannerController.m */; };
+		B07679DE22DD6B7700D7B518 /* CS005.m in Sources */ = {isa = PBXBuildFile; fileRef = B07679D622DD6B7600D7B518 /* CS005.m */; };
+		B07679DF22DD6B7700D7B518 /* CS003.m in Sources */ = {isa = PBXBuildFile; fileRef = B07679D822DD6B7700D7B518 /* CS003.m */; };
+		B07679E322DD6CD300D7B518 /* Adnext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07679E222DD6CD300D7B518 /* Adnext.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B07679B122DD6A5600D7B518 /* AdnextSdkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdnextSdkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07679B422DD6A5600D7B518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B07679B522DD6A5600D7B518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B07679BB22DD6A5600D7B518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B07679BD22DD6A5800D7B518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B07679C022DD6A5800D7B518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B07679C222DD6A5800D7B518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07679C322DD6A5800D7B518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B07679CB22DD6A6D00D7B518 /* Adnext.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Adnext.bundle; sourceTree = "<group>"; };
+		B07679CF22DD6B7600D7B518 /* CS004.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CS004.m; sourceTree = "<group>"; };
+		B07679D022DD6B7600D7B518 /* SampleDynamicBannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDynamicBannerController.m; sourceTree = "<group>"; };
+		B07679D122DD6B7600D7B518 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B07679D222DD6B7600D7B518 /* SampleDynamicBannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDynamicBannerController.h; sourceTree = "<group>"; };
+		B07679D322DD6B7600D7B518 /* CS004.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CS004.h; sourceTree = "<group>"; };
+		B07679D522DD6B7600D7B518 /* CS005.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CS005.h; sourceTree = "<group>"; };
+		B07679D622DD6B7600D7B518 /* CS005.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CS005.m; sourceTree = "<group>"; };
+		B07679D822DD6B7700D7B518 /* CS003.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CS003.m; sourceTree = "<group>"; };
+		B07679D922DD6B7700D7B518 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B07679DA22DD6B7700D7B518 /* CS003.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CS003.h; sourceTree = "<group>"; };
+		B07679E122DD6B9F00D7B518 /* SampleKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleKey.h; sourceTree = "<group>"; };
+		B07679E222DD6CD300D7B518 /* Adnext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adnext.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B07679AE22DD6A5600D7B518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07679E322DD6CD300D7B518 /* Adnext.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B07679A822DD6A5600D7B518 = {
+			isa = PBXGroup;
+			children = (
+				B07679B322DD6A5600D7B518 /* AdnextSdkSample */,
+				B07679B222DD6A5600D7B518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B07679B222DD6A5600D7B518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B07679B122DD6A5600D7B518 /* AdnextSdkSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B07679B322DD6A5600D7B518 /* AdnextSdkSample */ = {
+			isa = PBXGroup;
+			children = (
+				B07679E222DD6CD300D7B518 /* Adnext.framework */,
+				B07679CB22DD6A6D00D7B518 /* Adnext.bundle */,
+				B07679D722DD6B7600D7B518 /* CS003 */,
+				B07679CE22DD6B7600D7B518 /* CS004 */,
+				B07679D422DD6B7600D7B518 /* CS005 */,
+				B07679B422DD6A5600D7B518 /* AppDelegate.h */,
+				B07679B522DD6A5600D7B518 /* AppDelegate.m */,
+				B07679E122DD6B9F00D7B518 /* SampleKey.h */,
+				B07679BA22DD6A5600D7B518 /* Main.storyboard */,
+				B07679BD22DD6A5800D7B518 /* Assets.xcassets */,
+				B07679BF22DD6A5800D7B518 /* LaunchScreen.storyboard */,
+				B07679C222DD6A5800D7B518 /* Info.plist */,
+				B07679C322DD6A5800D7B518 /* main.m */,
+			);
+			path = AdnextSdkSample;
+			sourceTree = "<group>";
+		};
+		B07679CE22DD6B7600D7B518 /* CS004 */ = {
+			isa = PBXGroup;
+			children = (
+				B07679D222DD6B7600D7B518 /* SampleDynamicBannerController.h */,
+				B07679D022DD6B7600D7B518 /* SampleDynamicBannerController.m */,
+				B07679D322DD6B7600D7B518 /* CS004.h */,
+				B07679CF22DD6B7600D7B518 /* CS004.m */,
+				B07679D122DD6B7600D7B518 /* README.md */,
+			);
+			path = CS004;
+			sourceTree = "<group>";
+		};
+		B07679D422DD6B7600D7B518 /* CS005 */ = {
+			isa = PBXGroup;
+			children = (
+				B07679D522DD6B7600D7B518 /* CS005.h */,
+				B07679D622DD6B7600D7B518 /* CS005.m */,
+			);
+			path = CS005;
+			sourceTree = "<group>";
+		};
+		B07679D722DD6B7600D7B518 /* CS003 */ = {
+			isa = PBXGroup;
+			children = (
+				B07679DA22DD6B7700D7B518 /* CS003.h */,
+				B07679D822DD6B7700D7B518 /* CS003.m */,
+				B07679D922DD6B7700D7B518 /* README.md */,
+			);
+			path = CS003;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B07679B022DD6A5600D7B518 /* AdnextSdkSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07679C722DD6A5800D7B518 /* Build configuration list for PBXNativeTarget "AdnextSdkSample" */;
+			buildPhases = (
+				B07679AD22DD6A5600D7B518 /* Sources */,
+				B07679AE22DD6A5600D7B518 /* Frameworks */,
+				B07679AF22DD6A5600D7B518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdnextSdkSample;
+			productName = AdnextSdkSample;
+			productReference = B07679B122DD6A5600D7B518 /* AdnextSdkSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B07679A922DD6A5600D7B518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = com.mocoplex;
+				TargetAttributes = {
+					B07679B022DD6A5600D7B518 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B07679AC22DD6A5600D7B518 /* Build configuration list for PBXProject "AdnextSdkSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B07679A822DD6A5600D7B518;
+			productRefGroup = B07679B222DD6A5600D7B518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B07679B022DD6A5600D7B518 /* AdnextSdkSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B07679AF22DD6A5600D7B518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07679C122DD6A5800D7B518 /* LaunchScreen.storyboard in Resources */,
+				B07679CD22DD6A6D00D7B518 /* Adnext.bundle in Resources */,
+				B07679BE22DD6A5800D7B518 /* Assets.xcassets in Resources */,
+				B07679BC22DD6A5600D7B518 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B07679AD22DD6A5600D7B518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07679DB22DD6B7700D7B518 /* CS004.m in Sources */,
+				B07679DC22DD6B7700D7B518 /* SampleDynamicBannerController.m in Sources */,
+				B07679DE22DD6B7700D7B518 /* CS005.m in Sources */,
+				B07679C422DD6A5800D7B518 /* main.m in Sources */,
+				B07679DF22DD6B7700D7B518 /* CS003.m in Sources */,
+				B07679B622DD6A5600D7B518 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B07679BA22DD6A5600D7B518 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B07679BB22DD6A5600D7B518 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B07679BF22DD6A5800D7B518 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B07679C022DD6A5800D7B518 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B07679C522DD6A5800D7B518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B07679C622DD6A5800D7B518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B07679C822DD6A5800D7B518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6H985GLJY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdnextSdkSample",
+				);
+				INFOPLIST_FILE = AdnextSdkSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mocoplex.AdnextSdkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B07679C922DD6A5800D7B518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6H985GLJY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdnextSdkSample",
+				);
+				INFOPLIST_FILE = AdnextSdkSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mocoplex.AdnextSdkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B07679AC22DD6A5600D7B518 /* Build configuration list for PBXProject "AdnextSdkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07679C522DD6A5800D7B518 /* Debug */,
+				B07679C622DD6A5800D7B518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07679C722DD6A5800D7B518 /* Build configuration list for PBXNativeTarget "AdnextSdkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07679C822DD6A5800D7B518 /* Debug */,
+				B07679C922DD6A5800D7B518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B07679A922DD6A5600D7B518 /* Project object */;
+}
